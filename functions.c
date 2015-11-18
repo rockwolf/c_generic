@@ -6,9 +6,6 @@
 #include <stdio.h>
 #include <string.h>
 
-void trim_whitespace(char *a_result, char *a_string, size_t a_buffersize);
-void timestamp(char *a_result, const char *a_dtformat, size_t a_buffersize);
-
 
 /*
  * This function returns a pointer to a substring of the original string.
