@@ -63,4 +63,3 @@ void timestamp(char *a_result, const char *a_dtformat, size_t a_buffersize)
         l_localtime.tm_sec
     );
 }
-
