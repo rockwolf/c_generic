@@ -5,6 +5,8 @@
 #include <ctype.h>
 #include <time.h>
 #include <string.h>
+#include <stdarg.h>
+#include <stdint.h>
 
 
 /*
