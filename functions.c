@@ -63,3 +63,19 @@ void timestamp(char *a_result, const char *a_dtformat, size_t a_buffersize)
         l_localtime.tm_sec
     );
 }
+
+/*
+ * print_if_verbose
+ * Prints the given message, when
+ * the verbose flag is true (1).
+ */
+void print_if_verbose(uint32_t *a_verbose, char *a_msg, ...)
+{
+    va_list l_args;
+    if (*a_verbose != 1)
+        return;
+
+    va_start(l_args, a_msg);
+    vprintf(a_msg, l_args);
+    va_end(l_args);
+}
