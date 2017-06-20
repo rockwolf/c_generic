@@ -21,6 +21,7 @@ static inline const char *string_return_status(enum enum_return_status_generic_t
 enum enum_plot_timeframe_t
 {
     yearly,
+    quarterly,
     monthly,
     weekly,
     daily
@@ -30,6 +31,7 @@ static inline const char *string_plot_timeframe(enum enum_plot_timeframe_t a_ret
 {
     static const char *l_return_values[] = {
         "yearly",
+        "quarterly",
         "monthly",
         "weekly",
         "daily"
